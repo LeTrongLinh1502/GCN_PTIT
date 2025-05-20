@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf015b45-3de6-48c3-b007-77af4ed594a4" name="Changes" comment="" />
+    <list default="true" id="bf015b45-3de6-48c3-b007-77af4ed594a4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/GCN_classification_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/GCN_classification_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GCN_predict_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/GCN_predict_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +54,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="git push -u origin master" />
+    </option>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -66,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747718190576</updated>
-      <workItem from="1747718191686" duration="1229000" />
+      <workItem from="1747718191686" duration="1499000" />
     </task>
     <servers />
   </component>

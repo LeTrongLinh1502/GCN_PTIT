@@ -29,7 +29,7 @@ parser.add_argument('--dropout', type=float, default=0.8,
                     help='Dropout rate (1 - keep probability).')
 parser.add_argument("--normalization", default="FirstOrderGCN",
                     help="The normalization on the adj matrix.")
-parser.add_argument('--dataset', default="cora", help="The data set")           #citeseer  cora
+parser.add_argument('--dataset', default="cora", help="The data set")
 parser.add_argument('--datapath', default="./data/", help="The data path.")
 parser.add_argument("--no_tensorboard", default=False, help="Disable writing logs to tensorboard")
 parser.add_argument('--lradjust', action='store_true',

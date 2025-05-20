@@ -200,7 +200,7 @@ for i_case, kwargs in enumerate(test_cases):
                     use_pairnorm=args.use_pairnorm,  # 'None', 'PN', 'PN-SI', 'PN-SCS'
                     activation=args.activation)  # relu  linear
     model = model.to(device)
-    optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)  # lr=1e-3  注意：在2.17日15.20之前的数据的学习率均固定为1e-3
+    optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
     # optimizer = torch.optim.Adam(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
     if args.lradjust:
         # scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, patience=50, factor=0.618)
